@@ -1,0 +1,38 @@
+= 接口文档
+大胃王;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+实例应用演示了如何在Spring框架下使用 Spring REST Docs。
+
+`SampleWebTestClientApplicationTests` 调用一个非常简单的服务。
+下面7个片段是自动生成的。
+
+1.如何使用cURL发出请求：
+
+include::{snippets}/测试用户接口/curl-request.adoc[]
+
+2.如何使用HTTPie发出请求:
+
+include::{snippets}/测试用户接口/httpie-request.adoc[]
+
+3.显示一个HTTP请求:
+
+include::{snippets}/测试用户接口/http-request.adoc[]
+
+4.显示一个请求正文:
+
+include::{snippets}/测试用户接口/request-body.adoc[]
+
+5.显示一个HTTP响应:
+
+include::{snippets}/测试用户接口/http-response.adoc[]
+
+6.显示一个响应体:
+
+include::{snippets}/测试用户接口/response-body.adoc[]
+
+7.显示响应体含义:
+
+include::{snippets}/测试用户接口/response-fields.adoc[]
